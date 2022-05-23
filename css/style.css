@@ -1,0 +1,264 @@
+/*css file
+rgba(100, 164, 189, 0.561);
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(158, 158, 158, 0.561);
+}
+
+
+/* nav {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 6.4%;
+    background-color: rgba(97, 98, 100, 0.568);
+    padding-right: 2%;
+    padding-left: 29%;
+    position: fixed;
+    text-align: center;
+}
+
+nav button {
+    float: right;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(51, 62, 109, 0.829);
+    border-radius: 20%;
+    padding: 1%;
+    transition: 0.6s ease;
+    font-size: 20px;
+    margin-right: 3%;
+    margin-top: 0.3%;
+}
+
+nav button a {
+    color: white;
+    font-weight: bold;
+}
+
+nav button:hover {
+    color: black;
+    background-color: rgba(112, 161, 180, 0.561);
+}
+
+nav button a:hover {
+    color: #fff;
+}
+ */
+
+.side-nav {
+    /* float: left; */
+    /*  top: 6.4%; */
+    width: 22.2%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(92, 92, 92);
+    color: #fff;
+    text-align: center;
+    overflow: scroll;
+}
+
+.side-nav .menubar {
+    font-size: 60px;
+}
+
+.side-nav .admin {
+    font-size: 25px;
+}
+
+.side-nav ul {
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 20px;
+    /*  position: absolute; */
+}
+
+.side-nav ul li {
+    width: 300px;
+    margin: 5px;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    /* margin-left: 5px;*/
+    padding-left: 10px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 10px;
+    transition: 0.7s ease;
+    display: block;
+}
+
+.side-nav ul li a:hover,
+.active {
+    background-color: rgba(36, 34, 34, 0.561);
+    /* color: black; */
+}
+
+
+/* 
+.side-nav ul li ul {
+    color: #fff;
+    background-color: rgb(92, 92, 92);
+    display: none;
+}
+
+.side-nav ul li ul li {
+    float: none;
+}
+
+.side-nav ul li:hover ul {
+    display: block;
+    padding-left: 20px;
+}
+ */
+
+.side-nav ul .log-out a {
+    border: .5px solid #fff;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.bdy {
+    padding-top: 30px;
+    padding: 10px;
+}
+
+.contents {
+    float: left;
+    width: 77.5%;
+    height: 100%;
+    background-color: #e2daeb;
+    position: absolute;
+    /* top: 7%; */
+    left: 22.5%;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.continer {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    overflow: auto;
+}
+
+.continer .ad {
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #6a696b;
+    text-align: center;
+}
+
+.contents .TNumber {
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.contents .TNumber label {
+    color: #fff;
+    background-color: #959299;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contents .TNumber .number {
+    color: black;
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+}
+
+.contents .submenu {
+    background-color: #959299;
+    float: left;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    margin: 25px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contents .submenu ul {
+    list-style-type: none;
+    display: block;
+}
+
+.contents .submenu ul li {
+    padding-top: 20%;
+}
+
+.contents .submenu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contents .submenu:hover {
+    background-color: rgba(36, 34, 34, 0.561);
+}
+
+.contents .form-title {
+    margin-top: .5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    /* font-weight: bold; */
+    color: rgba(5, 5, 5, 0.719);
+    text-align: center;
+}
+
+.contents .add-form {
+    margin: 20px;
+    padding: 10px;
+}
+
+.contents .add-form .input-field {
+    padding: 10px;
+}
+
+.contents .submit-info {
+    background-color: rgb(70, 71, 71);
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contents .submit-info:hover {
+    background-color: rgba(17, 17, 17, 0.89);
+}

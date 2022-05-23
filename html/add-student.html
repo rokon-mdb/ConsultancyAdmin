@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>admin page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="continer">
+        <!-- <div>
+            <nav>
+                <label class="ad"> admin panel </label>
+                <button type="submit" name="logout"> <a href="#">log out</a> </button>
+            </nav>
+        </div> -->
+        <div class="side-nav">
+            <div class="admin">
+                <label>@admin</label>
+            </div>
+            <div class="menubar">
+                <label>LOGO</label>
+            </div>
+            <ul>
+                <li> <a href="admin.html">Home</a> </li>
+                <li> <a href="employee.html">Employee</a>
+                    <!-- <ul>
+                        <li> <a href="#">add Employee</a></li>
+                        <li> <a href="#">Deteils</a></li>
+                    </ul> -->
+                </li>
+                <li> <a class="active" href="student.html">Student</a>
+                    <!-- <ul>
+                        <li> <a href="#">add Student</a></li>
+                        <li> <a href="#">Deteils</a></li>
+                    </ul> -->
+                </li>
+                <li> <a href="country.html">Country</a>
+                    <!-- <ul>
+                        <li> <a href="#">add Country</a></li>
+                        <li> <a href="#">Deteils</a></li>
+                    </ul> -->
+                </li>
+                <li> <a href="university.html">University</a>
+                    <!-- <ul>
+                        <li> <a href="#">add University</a></li>
+                        <li> <a href="#">Deteils</a></li>
+                    </ul> -->
+                </li>
+                <li> <a href="student-lead.html">Student Lead</a>
+                    <!-- <ul>
+                        <li> <a href="#">add Lead</a></li>
+                        <li> <a href="#">Deteils</a></li>
+                    </ul> -->
+                </li>
+                <li> <a href="accounts.html">Accounts</a>
+                    <!--  <ul>
+                        <li> <a href="#">Spent</a></li>
+                        <li> <a href="#">Incomes</a></li>
+                    </ul> -->
+                </li>
+                <div class="log-out">
+                    <li> <a href="logout.php">Log Out</a> </li>
+                </div>
+
+            </ul>
+        </div>
+
+        <div class="contents">
+            <label class="ad"> Student's Infomation </label>
+            <label class="form-title">Fill up Student Form</label>
+            <form class="add-student-form" action="" method="post">
+                <div class="input-field">
+                    <br>
+                    <label>Id:</label>
+                    <br>
+                    <input type="text" name="student-id" placeholder="Enter Id" required>
+                </div>
+                <div class="input-field">
+                    <br>
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="student-name" placeholder="Enter Name" required>
+                </div>
+                <div class="input-field">
+                    <br>
+                    <label>Address:</label>
+                    <br>
+                    <input type="text" name="student-address" placeholder="Enter Address" required>
+                </div>
+                <div class="input-field">
+                    <br>
+                    <label>CGPA:</label>
+                    <br>
+                    <input type="text" name="student-cgpa" placeholder="Enter salary" required>
+                </div>
+                <div class="input-field">
+                    <br>
+                    <label>IELTS Score:</label>
+                    <br>
+                    <input type="text" name="student-ielts" placeholder="Enter salary" required>
+                </div>
+                <div class="input-field">
+                    <br>
+                    <label>Contact:</label>
+                    <br>
+                    <input type="text" name="student-contact" placeholder="01......." required>
+                </div>
+
+                <button class="submit-info" type="submit" name="employee-submit">submit </button>
+
+
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
